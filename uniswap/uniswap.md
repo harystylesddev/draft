@@ -78,3 +78,28 @@ This workshop is happening in-person
 05:30 PM UTC-03 — Friday, Nov 21, 2025 in Workshop Room 4
 
 ---
+
+
+---
+--
+
+Resources
+
+-https://soliditydeveloper.com/uniswap4
+-https://github.com/makemake-kbo/sdhasidhas/tree/main/src
+
+
+---
+---
+IDEAS
+
+Advanced Yield Strategy (Uniswap v4): On Zircuit, a custom Uniswap v4 Volatile-Pair Hook creates a dynamic liquidity pool. The Hook automatically adjusts fees based on market volatility and uses EIP-7702 to execute complex, gasless rebalancing strategies, maximizing yield for btcUSD/ETH pairs.
+
+---
+
+Custom AMM Logic (Uniswap v4): A Stable-Asset Hook modifies the constant product formula to minimize slippage for assets that should trade near 1:1 (e.g., a US Treasury bill token vs a European government bond token). The Hook automatically compounds and distributes yield to liquidity providers in real-time.
+
+---
+
+Solver Network (Uniswap v4): Solvers use custom v4 Hooks to create highly capital-efficient liquidity pools that back these perp positions. They profit by optimizing spread and funding rates.
+
